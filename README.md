@@ -1,18 +1,17 @@
 # goERP
-基于beego的进销存系统
+Based on beego Invoicing system
 
-数据库的结构参考了odoo的设计
+The structure of the database refers to the design of odoo
 
-管理界面采用的是开源的adminLTE
+Management interface is used in the open source adminLTE
 
-由于公司销售的是黄金饰品，产品管理上面需要两个单位来管理，故在设计上直接使用了两个单位(暂时不添加第二单位)
+As the company is selling gold jewelry, product management above the need for two units to manage, so in the design of the direct use of the two units (temporarily not add the second unit)
 
-数据库采用的是postgresql，版本中的数据库连接到自己的阿里云服务器
+The database is used in postgresql, the version of the database to connect to their Ali cloud server
 
-包含了全国省市区的地址信息，初始化数据在init_xml中，包括系统管理员的帐号信息
+Contains the national provinces and cities of the address information, initialization data in init_xml, including the system administrator account information
 
-目前底层结构设计改动变化较大
-
+At present, the structural changes in the underlying structure are greatly changed
 ![](http://i.imgur.com/IXXL2vO.png)
 
 ![](http://i.imgur.com/njEhm4t.png)
